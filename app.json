@@ -1,0 +1,14 @@
+{
+  "name": "Inlets",
+  "description": "A Cloud Native Tunnel for APIs.",
+  "repository": "https://github.com/coltonfischer/inlets-heroku/",
+  "logo": "https://docs.inlets.dev/images/inlets-logo.svg",
+  "stack": "container",
+  "keywords": ["tunnel", "reverse-proxy", "http"],
+  "env": {
+    "TOKEN": {
+      "description": "A shared secret key for both the server and client to prevent unauthorized connections to the tunnel.",
+      "generator": "secret"
+    }
+  }
+}
